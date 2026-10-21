@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  background: #333;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
+NavLink:hover{
+  background-color: aqua;
+}

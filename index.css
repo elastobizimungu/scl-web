@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f9fafb;
+  color: #111;
+  text-align: left;
+}
+
+a {
+  color: inherit;
+}
+
+NavLink:hover{
+  background-color: rgb(123, 0, 255);
+}

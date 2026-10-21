@@ -1,0 +1,105 @@
+.reg-page {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.reg-page h1 {
+  text-align: center;
+  color: #333;
+  font-size: 22px;
+}
+
+.reg-page > p {
+  text-align: center;
+  color: #555;
+}
+
+.reg-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.reg-tab {
+  padding: 8px 16px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  background: #f5f5f5;
+  transition: background 0.2s, color 0.2s;
+}
+
+.reg-tab:hover {
+  background: #e0e0e0;
+}
+
+.reg-tab.active {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+  font-weight: bold;
+}
+
+.reg-form-wrap h2 {
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.reg-form {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.reg-form label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #333;
+}
+
+.reg-form input,
+.reg-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.reg-form button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.reg-form button:hover {
+  background: #0052a3;
+}
+
+.reg-success {
+  background: #e6ffed;
+  border: 1px solid #a3e0b0;
+  color: #1a7a35;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
